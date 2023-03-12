@@ -2,9 +2,117 @@
 /*color of text #434455 */
 /*colot of accent #4D5AE5 */
 
+:root {
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --basik-white: #ffffff;
+    --pressed-state: #404BBF;
+}
 
 
 body { 
-    color: #434455;
-    background-color: #fff;
+    color: var(--slate);
+    background-color: var(--basik-white);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+    text-decoration-line: none;
+}
+
+.logo:hover,
+.logo:focus{
+    color: var(--pressed-state);
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    text-decoration-line: none;
+
+}
+.accent {
+    color: var(--iris);
+}
+
+.menu .link {
+    color: var(--navy-blue);
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration-line: none;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+    color: var(--pressed-state);
+}
+
+.contact {
+    color: inherit;
+    line-height: 1.5;
+    font-style: normal;
+    text-decoration-line: none;
+}
+
+.contact:hover,
+.contact:focus,
+.contact:active {
+    color: var(--pressed-state);
+}
+
+.hero {
+    background: var(--navy-blue);
+    color: var(--basik-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+
+.title {
+    color: var(--navy-blue);
+}
+
+.list-advantages .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.team {
+    background: #F4F4FD;
+}
+
+
+.footer {
+    background: var(--navy-blue);
+}
+.slogan {
+    color: #F4F4FD;;
+    line-height: 1.5
 }
