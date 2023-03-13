@@ -3,16 +3,18 @@
 /*colot of accent #4D5AE5 */
 
 :root {
-    --navy-blue: #2E2F42;
-    --slate: #434455;
-    --iris: #4D5AE5;
+    --dark: #2E2F42;
+    --text: #434455;
+    --primary-brand: #4D5AE5;
     --basik-white: #ffffff;
     --pressed-state: #404BBF;
+    --light: #F4F4FD;
+
 }
 
 
 body { 
-    color: var(--slate);
+    color: var(--text);
     background-color: var(--basik-white);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
@@ -30,7 +32,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: var(--dark);
     text-decoration-line: none;
 }
 
@@ -46,16 +48,16 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--light);
     text-decoration-line: none;
 
 }
 .accent {
-    color: var(--iris);
+    color: var(--primary-brand);
 }
 
 .menu .link {
-    color: var(--navy-blue);
+    color: var(--dark);
     font-weight: 500;
     line-height: 1.5;
     text-decoration-line: none;
@@ -81,7 +83,7 @@ ul {
 }
 
 .hero {
-    background: var(--navy-blue);
+    background: var(--dark);
     color: var(--basik-white);
     font-weight: 700;
     font-size: 56px;
@@ -91,7 +93,7 @@ ul {
 
 
 .title {
-    color: var(--navy-blue);
+    color: var(--dark);
     
 }
 
@@ -103,22 +105,54 @@ ul {
 
 .description {
     line-height: 1.5;
-    color: var(--slate);
+    color: var(--text);
 }
 
 .team {
-    background: #F4F4FD;
+    background: var(--light);
 }
 
 
 .footer {
-    background: var(--navy-blue);
+    background: var(--dark);
 }
 .slogan {
-    color: #F4F4FD;;
+    color: var(--light);;
     line-height: 1.5
 }
 
 .example {
     text-decoration-line: none;
 }
+
+/* КНОПКИ */
+.hero-button {
+    font-family: Roboto, sans-serif;
+    color: var(--basik-white);
+    font-weight: 500;
+    line-height: 1.5;
+    background: var(--primary-brand);
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: var(--pressed-state);
+}
+
+.button {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-brand);
+    font-weight: 500;
+    line-height: 1.5;
+    background: var(--light);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--basik-white);
+    background: var(--pressed-state);
+}
+
