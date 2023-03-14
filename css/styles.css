@@ -62,7 +62,7 @@ text-decoration-line: none;
 }
 
 .menu-item {
-    color: inherit;
+    color: var(--dark);
 }
 
 .link:hover,
@@ -164,7 +164,7 @@ text-decoration-line: none;
 
 .hero-button:hover,
 .hero-button:focus {
-    background: var(--pressed-state);
+    color: var(--pressed-state);
 }
 
 .button {
