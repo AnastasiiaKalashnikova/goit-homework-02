@@ -62,7 +62,7 @@ text-decoration-line: none;
 }
 
 .menu-item {
-    color: var(--dark);
+    color: inherit;
 }
 
 .link:hover,
