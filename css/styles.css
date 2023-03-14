@@ -44,17 +44,10 @@ text-decoration-line: none;
     color: var(--pressed-state);
 }
 
-.logo-footer {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo-white {
     color: var(--light);
-    text-decoration-line: none;
-
 }
+
 .logo-dark {
     color: var(--dark);
 }
@@ -73,10 +66,13 @@ text-decoration-line: none;
 }
 
 .contact {
+    font-style: normal;
+}
+
+.contact-tel,
+.contact-email {
     color: inherit;
     line-height: 1.5;
-    font-style: normal;
-    text-decoration-line: none;
 }
 
 .contact:hover,
@@ -100,7 +96,13 @@ text-decoration-line: none;
     letter-spacing: 0.02em;
 }
 
-.title {
+.advantages-subtitle,
+.team-subtitle {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     }
 
 .section-title {
@@ -165,7 +167,8 @@ text-decoration-line: none;
     background: var(--pressed-state);
 }
 
-.servis-title {
+.servis-title,
+.team-title {
     font-size: 36px;
     line-height: 1.11;
     color: var(--dark);
