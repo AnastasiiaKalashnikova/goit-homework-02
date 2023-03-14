@@ -22,18 +22,21 @@ body {
 }
 
 .list {
-    list-style-type: none;
+    list-style: none;
+}
+
+.link {
+text-decoration-line: none;
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark);
-    text-decoration-line: none;
+    color: var(--primary-brand);
 }
 
 .logo:hover,
@@ -52,8 +55,8 @@ body {
     text-decoration-line: none;
 
 }
-.accent {
-    color: var(--primary-brand);
+.logo-dark {
+    color: var(--dark);
 }
 
 .menu .link {
@@ -84,19 +87,21 @@ body {
 
 .hero {
     background: var(--dark);
+
+    text-align: center;
+
+}
+
+.hero-title {
     color: var(--basik-white);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
 }
 
-
 .title {
-    color: var(--dark);
-    
-}
+    }
 
 .section-title {
     font-weight: 500;
@@ -131,9 +136,11 @@ body {
 .hero-button {
     font-family: Roboto, sans-serif;
     color: var(--basik-white);
+    background: var(--primary-brand);
     font-weight: 500;
     line-height: 1.5;
-    background: var(--primary-brand);
+    letter-spacing: 0.04em;
+    font-size: 16px;
     align-items: center;
     cursor: pointer;
 }
@@ -146,9 +153,9 @@ body {
 .button {
     font-family: Roboto, sans-serif;
     color: var(--primary-brand);
+    background: var(--light);
     font-weight: 500;
     line-height: 1.5;
-    background: var(--light);
     cursor: pointer;
 }
 
@@ -158,3 +165,10 @@ body {
     background: var(--pressed-state);
 }
 
+.servis-title {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--dark);
+    text-align: center;
+    text-transform: capitalize;
+}
