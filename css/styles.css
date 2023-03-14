@@ -21,6 +21,8 @@ body {
     font-size: 16px;
 }
 
+/* ЗАГАЛЬНІ */
+
 .list {
     list-style: none;
 }
@@ -29,6 +31,7 @@ body {
 text-decoration-line: none;
 }
 
+/* ЛОГО */
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -40,7 +43,7 @@ text-decoration-line: none;
 }
 
 .logo:hover,
-.logo:focus{
+.logo:focus {
     color: var(--pressed-state);
 }
 
@@ -53,10 +56,13 @@ text-decoration-line: none;
 }
 
 .menu-list {
-    color: var(--dark);
     font-weight: 500;
     line-height: 1.5;
     text-decoration-line: none;
+}
+
+.menu-item {
+    color: var(--dark);
 }
 
 .link:hover,
@@ -69,8 +75,7 @@ text-decoration-line: none;
     font-style: normal;
 }
 
-.contact-tel,
-.contact-email {
+.contact-item {
     color: inherit;
     line-height: 1.5;
 }
@@ -121,6 +126,19 @@ text-decoration-line: none;
     background: var(--light);
 }
 
+.servis-title,
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-member {
+    background: var(--basik-white);
+}
 
 .footer {
     background: var(--dark);
@@ -130,13 +148,9 @@ text-decoration-line: none;
     line-height: 1.5
 }
 
-.example {
-    text-decoration-line: none;
-}
 
 /* КНОПКИ */
 .hero-button {
-  
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-size: 16px;
@@ -170,12 +184,3 @@ text-decoration-line: none;
     background: var(--pressed-state);
 }
 
-.servis-title,
-.team-title {
-    font-size: 36px;
-    line-height: 1.11;
-    etter-spacing: 0.02em;
-    color: var(--dark);
-    text-align: center;
-    text-transform: capitalize;
-}
