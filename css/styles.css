@@ -42,10 +42,6 @@ text-decoration-line: none;
     color: var(--primary-brand);
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--pressed-state);
-}
 
 .logo-white {
     color: var(--light);
@@ -80,9 +76,9 @@ text-decoration-line: none;
     line-height: 1.5;
 }
 
-.contact:hover,
-.contact:focus,
-.contact:active {
+.contact-item:hover,
+.contact-item:focus,
+.contact-item:active {
     color: var(--pressed-state);
 }
 
@@ -155,7 +151,6 @@ text-decoration-line: none;
     letter-spacing: 0.04em;
     font-size: 16px;
     font-weight: 500;
-    align-items: center;
     cursor: pointer;
     font-family: Roboto, sans-serif;
     color: var(--basik-white);
@@ -164,7 +159,7 @@ text-decoration-line: none;
 
 .hero-button:hover,
 .hero-button:focus {
-    color: var(--pressed-state);
+    background: var(--pressed-state);
 }
 
 .button {
