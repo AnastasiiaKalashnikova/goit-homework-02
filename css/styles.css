@@ -61,9 +61,9 @@ text-decoration-line: none;
     color: var(--dark);
 }
 
-.link:hover,
-.link:focus,
-.link:active {
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
     color: var(--pressed-state);
 }
 
